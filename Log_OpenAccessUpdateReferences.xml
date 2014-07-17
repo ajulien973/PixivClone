@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_ConvertModelWizard_Files\UpgradeReferences.xslt"?>
+<UpgradeLog>
+  <Events>
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\PixivClone.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\PixivClone.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\PixivClone.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Views\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.config" Message="Web.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Debug.config" Message="Web.Debug.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\Web.Release.config" Message="Web.Release.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone\PixivClone.csproj" Message="PixivClone" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\PixivClone.UnitTests.csproj" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\PixivClone.UnitTests.csproj" Message="Project References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\PixivClone.UnitTests.csproj" Message="Import Directives" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\App.config" Message="App.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="Assembly References" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="Http Handlers" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="Handlers (IIS7+)" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="Config Sections" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="Render Extensions" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\packages.config" Message="packages.config" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\PixivClone.UnitTests.csproj" Message="PixivClone.UnitTests" />
+    <Event EventType="Success" Action="Analyze" SourceItem="c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.sln" Message="PixivClone" />
+  </Events>
+</UpgradeLog>
