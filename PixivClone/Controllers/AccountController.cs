@@ -1,4 +1,5 @@
 ﻿using PixivClone.Models;
+using PixivClone.ServiceLayers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,10 +11,11 @@ namespace PixivClone.Controllers
 {
     public class AccountController : Controller, IAccountController
     {
-        private IRepository<User> _repo;
+        private IEntityService<User> _entityService;
 
-        public AccountController(IRepository<User> repo) {
-            _repo = repo;
+        public AccountController(IEntityService<User> entityService)
+        {
+            _entityService = entityService;
         }
 
         //
@@ -31,7 +33,7 @@ namespace PixivClone.Controllers
         [HttpPost]
         public ActionResult Create(User user)
         {
-            _repo.Add(user);
+            _entityService.Add(user);
             return View();
         }
 	}

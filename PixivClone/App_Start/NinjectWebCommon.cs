@@ -12,6 +12,7 @@ namespace PixivClone.App_Start
     using Ninject.Web.Common;
     using PixivClone.Models;
     using PixivClone.Controllers;
+    using PixivClone.ServiceLayers;
 
     public static class NinjectWebCommon 
     {
@@ -65,8 +66,7 @@ namespace PixivClone.App_Start
         {
             kernel.Bind<IDbContext>().To<UserDbContext>();
             kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>));
-            kernel.Bind<IHomeController>().To<HomeController>();   
-            kernel.Bind<IAccountController>().To<AccountController>();
+            kernel.Bind(typeof(IEntityService<>)).To(typeof(EntityService<>));
         }        
     }
 }

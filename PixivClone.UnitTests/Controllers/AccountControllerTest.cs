@@ -7,6 +7,7 @@ using NUnit.Framework;
 using PixivClone.Controllers;
 using Telerik.JustMock;
 using PixivClone.Models;
+using PixivClone.ServiceLayers;
 
 namespace PixivClone.UnitTests.Controllers
 {
@@ -14,13 +15,13 @@ namespace PixivClone.UnitTests.Controllers
     class AccountControllerTest
     {
         private IAccountController _controller;
-        private IRepository<User> _userRepository;
+        private IEntityService<User> _entityService;
 
         [TestFixtureSetUp]
         public void SetupTestFixture()
         {
-            _userRepository = Mock.Create<IRepository<User>>();
-            _controller = new AccountController(_userRepository);
+            _entityService = Mock.Create<IEntityService<User>>();
+            _controller = new AccountController(_entityService);
         }
 
         [Test]
@@ -28,7 +29,7 @@ namespace PixivClone.UnitTests.Controllers
         {
             //Arrange
             var user = new User { UserId = Guid.NewGuid(), Username = "Ekanseht" };
-            Mock.Arrange(() => _userRepository.Add(user)).OccursOnce();
+            Mock.Arrange(() => _entityService.Add(user)).OccursOnce();
             
             //Act
             _controller.Create(user);

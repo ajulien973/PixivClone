@@ -191,6 +191,8 @@
     <Compile Include="Models\Repository.cs" />
     <Compile Include="Models\UserDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceLayers\EntityService.cs" />
+    <Compile Include="ServiceLayers\IEntityService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
