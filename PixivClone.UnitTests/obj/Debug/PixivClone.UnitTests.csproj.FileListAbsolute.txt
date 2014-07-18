@@ -44,3 +44,8 @@ c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClo
 c:\users\alexis.julien\documents\visual studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\nunit.framework.xml
 C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\EntityFramework.dll
 C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\WebActivatorEx.dll
+C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\Ninject.Web.dll
+C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Alexis.Julien\Documents\Visual Studio 2013\Projects\PixivClone\PixivClone.UnitTests\bin\Debug\Ninject.Web.xml
