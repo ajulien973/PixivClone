@@ -15,9 +15,24 @@ namespace PixivClone.ServiceLayers
             _repo = repo;
         }
 
-        void Add(T entity)
+        public void Add(T entity)
         {
             _repo.Add(entity);
+        }
+
+        public IQueryable<T> GetAll()
+        {
+            return _repo.GetAll();
+        }
+
+        public void Delete(T entity)
+        {
+            _repo.Delete(entity);
+        }
+
+        public void DeleteAll(IEnumerable<T> entity)
+        {
+            _repo.DeleteAll(entity);
         }
     }
 }

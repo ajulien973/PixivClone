@@ -7,15 +7,15 @@ using System.Web;
 
 namespace PixivClone.Models
 {
-    public partial class UserDbContext : DbContext, IDbContext
+    public partial class PixivDbContext : DbContext, IDbContext
     {
-        static UserDbContext()
+        static PixivDbContext()
         {
-            Database.SetInitializer<UserDbContext>(null);
+            Database.SetInitializer<PixivDbContext>(null);
         }
 
-        public UserDbContext()
-            : base("Name=UserDbContext")
+        public PixivDbContext()
+            : base("Name=PixivDbContext")
         {
         }
 
@@ -42,6 +42,8 @@ namespace PixivClone.Models
             this.ToTable("Users");
             this.Property(t => t.UserId).HasColumnName("userid");
             this.Property(t => t.Username).HasColumnName("username");
+            this.Property(t => t.Email).HasColumnName("email");
+            this.Property(t => t.Password).HasColumnName("password");
         }
     }
 }

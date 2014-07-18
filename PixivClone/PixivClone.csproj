@@ -189,7 +189,7 @@
     <Compile Include="Models\IDbContext.cs" />
     <Compile Include="Models\IRepository.cs" />
     <Compile Include="Models\Repository.cs" />
-    <Compile Include="Models\UserDbContext.cs" />
+    <Compile Include="Models\PixivDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceLayers\EntityService.cs" />
     <Compile Include="ServiceLayers\IEntityService.cs" />

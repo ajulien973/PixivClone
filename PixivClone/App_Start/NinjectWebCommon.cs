@@ -64,7 +64,7 @@ namespace PixivClone.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<IDbContext>().To<UserDbContext>();
+            kernel.Bind<IDbContext>().To<PixivDbContext>();
             kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>));
             kernel.Bind(typeof(IEntityService<>)).To(typeof(EntityService<>));
         }        
