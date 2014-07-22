@@ -1,12 +1,13 @@
 ﻿using PixivClone.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 
 namespace PixivClone.ServiceLayers
 {
-    public class EntityService<T> where T : class
+    public class EntityService<T> : IEntityService<T> where T : class
     {
         private IRepository<T> _repo;
 
@@ -33,6 +34,11 @@ namespace PixivClone.ServiceLayers
         public void DeleteAll(IEnumerable<T> entity)
         {
             _repo.DeleteAll(entity);
+        }
+
+        public void Update(T entity)
+        {
+           _repo.Update(entity);
         }
     }
 }

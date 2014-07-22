@@ -15,7 +15,7 @@ namespace PixivClone.Models
         }
 
         public PixivDbContext()
-            : base("Name=PixivDbContext")
+            : base("PixivDbContext")
         {
         }
 
@@ -39,8 +39,8 @@ namespace PixivClone.Models
                 .HasMaxLength(100);
 
             // Table & Column Mappings
-            this.ToTable("Users");
-            this.Property(t => t.UserId).HasColumnName("userid");
+            this.ToTable("User");
+            this.Property(t => t.UserId).HasColumnName("id");
             this.Property(t => t.Username).HasColumnName("username");
             this.Property(t => t.Email).HasColumnName("email");
             this.Property(t => t.Password).HasColumnName("password");

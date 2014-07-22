@@ -12,5 +12,6 @@ namespace PixivClone.Models
         IQueryable<T> GetAll();
         void Delete(T entity);
         void DeleteAll(IEnumerable<T> entity);
+        void Update(T entity);
     }
 }

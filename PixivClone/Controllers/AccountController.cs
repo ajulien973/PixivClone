@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -30,11 +31,22 @@ namespace PixivClone.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Create(User user)
+        public ActionResult Register(string email)
         {
-            _entityService.Add(user);
             return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new User() { Username = model.Username, Email = model.Email, Password = model.Password };
+                _entityService.Add(user);
+            }
+            return View(model);
         }
 	}
 }

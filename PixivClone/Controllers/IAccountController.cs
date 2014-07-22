@@ -11,6 +11,6 @@ namespace PixivClone.Controllers
     public interface IAccountController
     {
         ActionResult Index();
-        ActionResult Create(User user);
+        ActionResult Create();
     }
 }

@@ -23,19 +23,5 @@ namespace PixivClone.UnitTests.Controllers
             _entityService = Mock.Create<IEntityService<User>>();
             _controller = new AccountController(_entityService);
         }
-
-        [Test]
-        public void WhenUserIsCreatedCheckThatMethodAddIsCalledOnce()
-        {
-            //Arrange
-            var user = new User { UserId = Guid.NewGuid(), Username = "Ekanseht" };
-            Mock.Arrange(() => _entityService.Add(user)).OccursOnce();
-            
-            //Act
-            _controller.Create(user);
-
-            //Assert
-            Mock.Assert(_controller);
-        }
     }
 }

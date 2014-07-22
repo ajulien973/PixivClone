@@ -43,5 +43,12 @@ namespace PixivClone.Models
             }
         }
 
+        public virtual void Update(T entity)
+        {
+            var entry = _context.Entry(entity);
+            _dbset.Attach(entity);
+            entry.State = EntityState.Modified;
+        }
+
     }
 }
